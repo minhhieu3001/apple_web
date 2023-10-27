@@ -11,7 +11,7 @@ function MainLayout({headerColor, children}: LayoutProps) {
   return (
     <div style={{ width: '100vw'}}>
       <Header color={headerColor} />
-          <div>{children}</div>
+          <div style={{marginTop: '5vh'}}>{children}</div>
           <Footer />
     </div>
   )
